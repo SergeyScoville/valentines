@@ -1,4 +1,6 @@
 // Elements
+const doggieScreen = document.getElementById("doggie-screen");
+
 const envelope = document.getElementById("envelope-container");
 const letter = document.getElementById("letter-container");
 
@@ -10,6 +12,13 @@ const title = document.getElementById("letter-title");
 const catImg = document.getElementById("letter-cat");
 const buttons = document.getElementById("letter-buttons");
 const finalText = document.getElementById("final-text");
+
+// Click Finn
+doggieScreen.addEventListener("click", () => {
+    doggieScreen.style.display = "none";
+    letter.style.display = "flex";
+    envelope.style.display = "block";
+});
 
 // Click Envelope
 envelope.addEventListener("click", () => {

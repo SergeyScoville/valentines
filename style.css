@@ -8,11 +8,25 @@ body {
     font-family: "Pixelify Sans", sans-serif;
 }
 
+/* Doggie Screen */
+#doggie-screen {
+    text-align: center;
+    cursor: pointer;
+}
 
-/* Envelope Screen */
+#finn {
+    width: 250px;
+    image-rendering: pixelated;
+}
+
+/* Envelope Screen
 #envelope-container {
     text-align: center;
     cursor:pointer;
+} */
+/* Envelope Screen */
+#envelope-container {
+    display: none;
 }
 
 @keyframes pulse {
