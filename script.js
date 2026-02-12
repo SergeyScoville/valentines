@@ -16,7 +16,6 @@ const finalText = document.getElementById("final-text");
 // Click Finn
 doggieScreen.addEventListener("click", () => {
     doggieScreen.style.display = "none";
-    letter.style.display = "flex";
     envelope.style.display = "block";
 });
 
