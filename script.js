@@ -19,6 +19,7 @@ doggieScreen.addEventListener("click", () => {
     envelope.style.display = "block";
 });
 
+
 // Click Envelope
 envelope.addEventListener("click", () => {
     envelope.style.display = "none";
