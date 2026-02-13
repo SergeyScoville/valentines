@@ -16,8 +16,9 @@ const finalText = document.getElementById("final-text");
 // Click Finn
 doggieScreen.addEventListener("click", () => {
     doggieScreen.style.display = "none";
-    envelope.style.display = "block";
+    envelope.style.setProperty("display", "block");
 });
+
 
 
 // Click Envelope

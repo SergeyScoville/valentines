@@ -17,6 +17,7 @@ body {
 
 #finn {
     width: 500px;
+    height: auto;
     image-rendering: pixelated;
 }
 
